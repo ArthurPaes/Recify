@@ -1,6 +1,6 @@
 :root{            /*Referencia a raiz do documento html */
     --title-color: #322153;
-    --primary-color: #34cb79;
+    --primary-color: #caab1f;
 }
 
 *{                      /*referencia todos os seletores*/
@@ -16,7 +16,7 @@ html{
 
 
 body{
-    background: #e7e7f3;
+    background: white;
     -webkit-font-smoothing: antialiased;
 }
 

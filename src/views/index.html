@@ -14,21 +14,26 @@
     <div class="content">
         
         <header>
-            <img src="icones/logo.svg" alt="Logomarca">
+           <a  class="cozinheiro" href="#">
+                <span class="principal">Recify </span>  
+                
+            </a>
+
+           
             <a href="/create-point">
-                <span> </span>                <!--tag span é inline(fica do lado do elemento)-->
-                Cadastre um ponto de coleta</a>
+                <span class="cadastro"> </span>                <!--tag span é inline(fica do lado do elemento)-->
+                Adicione uma receita</a>
         
         </header>
     
         <main>
        
     
-        <h1>Seu marketplace de coleta de resíduos </h1>
+        <h1>Sua Coleção de receitas </h1>
     
-        <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente</p>
+        <p>Aqui você pode guardar todas as suas receitas</p>
         
-        <a href="#"><span></span><strong> Pesquisar pontos de coleta</strong></a>
+        <a href="#"><span></span><strong> Pesquisar receita</strong></a>
     
        
             </main>
@@ -40,18 +45,19 @@
     <div id="modal" class="hide">
         <div class="content">
             <div class="header">
-                <h1>Pontos de coleta</h1>
+                <h1>Receitas</h1>
                 <a href="#">Fechar</a>
             </div>
-            <form action="/search">
+            <form action="/search" && action="/detalhes">
                 <label for="search"></label>
                 <div class="search field">
-                    <input type="text" name="search" placeholder="Pesquise por cidade">
+                    <input type="text" name="search" placeholder="Pesquise sua receita">
                     <button>
                         <img src="icones/search.svg" alt="Buscar">
                     </button>
                 </div>
             </form>
+            
         </div>
     </div>
 {% endblock modal %}

@@ -49,7 +49,7 @@ server.post("/savepoint", (request, response)=>{
             request.body.image,
             request.body.name,
             request.body.address,
-            request.body.adress2,
+            request.body.address2,
             request.body.state,
             request.body.city,
             request.body.items
@@ -98,6 +98,37 @@ server.get("/search", (request, response)=>{
 
         // html com dados da db
         return response.render("search-results.html", { places: rows, total: total})   
+    })
+
+            
+})
+
+
+server.get("/detalhes", (request, response)=>{
+
+    const search =  request.query.search
+
+    if(search == ""){
+        return response.render("detalhes.html", { total:0})   
+    }
+
+
+
+
+    //consulta
+    // pegar os dados da db
+        db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function(err, rows){
+        if(err){
+            return console.log(err)
+        }
+
+        console.log("Aqui estão seus registros: ")
+        console.log(rows)
+
+        const total = rows.length
+
+        // html com dados da db
+        return response.render("detalhes.html", { places: rows, total: total})   
     })
 
             

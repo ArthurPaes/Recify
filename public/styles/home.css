@@ -1,7 +1,7 @@
 #page-home{
     height: 100vh;  /* vh = viewport height -> viewport ?é toda parte branca? (é dinâmico)*/
-    background: url('../icones/home-background.svg') no-repeat ;
-    background-position: 35vw bottom;
+    background: url('../icones/icone_chefe.png') no-repeat ;
+    background-position: 50vw bottom;
     
 }
 
@@ -19,7 +19,7 @@
 
 #page-home header{
 
-    margin-top: 48px;
+    margin-top: 35px;
 
     display: flex;
     align-items: center;
@@ -34,12 +34,31 @@
     
 }
 
-#page-home header a span{
+#page-home .cozinheiro{
+    background: url(../icones/icone_cozin.png) no-repeat;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#page-home .cadastro {
     margin-right: 16px ;
     background-image: url('../icones/log-in.svg');
-
     width: 20px;
     height: 20px;
+}
+
+#page-home .principal {
+    margin-right: 7px ;
+    margin-top: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px ;
+    display: flex;
+
 }
 
 #page-home main{
@@ -84,7 +103,7 @@
 }
 
 #page-home main a:hover{
-    background-color:  #2fb86e;
+    background-color:  #b38c0d;
 }
 
 #page-home main a span{

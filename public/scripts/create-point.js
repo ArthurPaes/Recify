@@ -7,7 +7,7 @@ function populateUFs(){
 
         for(state of states){
         
-            ufSelect.innerHTML = ufSelect.innerHTML + `<option value ="${state.id}">${state.nome}</option>`
+           // ufSelect.innerHTML = ufSelect.innerHTML + `<option value ="${state.id}">${state.nome}</option>`
 
         }
 
@@ -49,9 +49,9 @@ function getCities(event){
         });
 }
 
-document
-        .querySelector("select[name=uf]")  
-        .addEventListener("change", getCities) // quando o nome da uf mudar, execute a função getCities
+//document
+  //      .querySelector("select[name=uf]")  
+     //   .addEventListener("change", getCities) // quando o nome da uf mudar, execute a função getCities
  
 //itens de coleta
  
@@ -69,6 +69,10 @@ function handleSelectedItem(event){
     const itemLi = event.target
     //adicionar ou remover uma classe com javascript
     itemLi.classList.toggle("selected")         //cria a classe caso nao exista, remove caso exista
+
+    // if(itemLi.classList.contains("selected")){
+    //     itemLi.classList.remove("selected")
+    // }
 
 
     const itemId = itemLi.dataset.id        // pega o id(dataset.id), dos elementos li(.target), quando acontecer o evento click

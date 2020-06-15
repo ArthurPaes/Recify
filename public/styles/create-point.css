@@ -21,7 +21,7 @@
 
 }
 
-#page-create-point header a span{
+#page-create-point .voltar{
     margin-right: 16px ;
     background-image: url('../icones/arrow-left.svg');
     width: 20px;
@@ -29,13 +29,40 @@
     display: flex;
 }
 
+
+#page-create-point .cozinheiro{
+    background: url(../icones/icone_cozin.png) no-repeat;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#page-create-point .principal {
+    margin-right: 7px ;
+    margin-top: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px ;
+    display: flex;
+
+}
+
+#tempo{
+    
+   
+}
+
+
 form{
     background-color: white;
-    padding: 64px;
+    padding: 14px;
     border-radius: 8px;
     background-origin: padding-box;
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 30px auto;
 }
 
 form h1{
@@ -89,6 +116,16 @@ form input, form select{
 
 }
 
+form textarea{
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    
+    border-radius: 8px;
+
+}
+
 form select{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -120,7 +157,7 @@ form button{
 }
 
 form button:hover{
-    background-color: #2fb86e;
+    background-color:  #b38c0d;
 
 }
 
@@ -161,8 +198,8 @@ form button:hover{
 }
 
 .items-grid li.selected{
-    background: #e1faec;
-    border: 2px solid #34cb79;
+    background: #dfd28c;
+    border: 2px solid  #d4af32;
 }
 
 .items-grid li img, .items-grid li span{

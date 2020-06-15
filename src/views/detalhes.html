@@ -10,7 +10,7 @@
 
 
 {% block styles %}
-<link rel="stylesheet" href="/styles/search-results.css">
+<link rel="stylesheet" href="/styles/detalhes.css">
 
 
 {% endblock styles %}
@@ -33,31 +33,33 @@
 
     {% if total > 0 %}
     <h4>
-        <strong>{{total}} receitas </strong> encontradas
+        <strong>Sua receita </strong> 
     </h4>
 
 
     <div class="cards">
 
        {% for place in places %}
+            
             <div class="card">
-                <form action="/detalhes">
-                <label for="search"></label>
-                 <input type="hidden" name="search" value="{{ place.city }}">
-                <button>
-                    <img src="{{ place.image }}" alt="{{ place.name }}">
-                </button>
+                <a href='/detalhes'>
+                <img src="{{ place.image }}" alt="{{ place.name }}">
+                </a>
                 <h1>{{ place.city }}</h1>
                 <h3>{{ place.items }}</h3>
-                <h3>Serve {{ place.state}} pessoas</h3>
+                <h3>Rendimento: Serve {{ place.state}} pessoas</h3>
                 <p>
-                    Tempo de preparo: {{ place.name }} minutos<br/>
-                   
+                    <h3>Tempo de preparo: {{ place.name }} minutos</h3> <br/>
+                    <h3 class="ing">Ingredientes:</h3>
+                    <div class="ing2">{{ place.address }} </div>
+                    <h3 class="prep">Modo de Preparo:</h3> 
+                    <div class="prep2">{{ place.address2 }}</div>
+                    
 
                     
                 </p>
+
             </div>
-            </form>
        {% endfor %}
 
        
