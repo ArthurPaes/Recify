@@ -4,8 +4,6 @@ Website desenvolvido para armazenamento de receitas pessoais <br/>
 Home Page
 ![home](https://user-images.githubusercontent.com/47614825/84700424-82ba7880-af29-11ea-9857-a200378c7678.png)
 
-Formulário para adição de receitas
-![form](https://user-images.githubusercontent.com/47614825/84700624-df1d9800-af29-11ea-924e-59fa3cdb7db1.png)
 
 # Adicionando uma receita
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/47614825/84702512-23f6fe00-af2d-11ea-9dbc-16077cfc9bb8.gif)
