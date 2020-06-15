@@ -12,9 +12,9 @@ Home Page
 ![Recify](https://user-images.githubusercontent.com/47614825/84702630-54d73300-af2d-11ea-83ae-e7d25398952f.gif)
 
 # Tecnologias utilizadas 
-<a href="https://nodejs.org/en/">Node.js</a
-<a href="https://www.javascript.com/">JavaScript</a 
-<a href="">HTML5</a 
-<a href="">CSS</a
-<a href="https://www.sqlite.org/index.html">SQLite</a
+<a href="https://nodejs.org/en/">Node.js</a>
+<a href="https://www.javascript.com/">JavaScript</a> 
+<a href="">HTML5</a> 
+<a href="">CSS</a>
+<a href="https://www.sqlite.org/index.html">SQLite</a>
 
