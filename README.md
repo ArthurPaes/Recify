@@ -10,7 +10,8 @@ Website developed to store personal recipes <br/>
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/47614825/84702512-23f6fe00-af2d-11ea-9dbc-16077cfc9bb8.gif)
 
 # Examples
-![Recify](https://user-images.githubusercontent.com/47614825/84702630-54d73300-af2d-11ea-83ae-e7d25398952f.gif)
+![recify](https://user-images.githubusercontent.com/47614825/88612436-99440b80-d061-11ea-9bc9-2e3b896b8c13.gif)
+
 
 # Tools used 
 <a href="https://nodejs.org/en/">Node.js</a>  <br/>
