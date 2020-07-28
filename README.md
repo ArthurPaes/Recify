@@ -1,7 +1,8 @@
 # Recify
 
 Website developed to store personal recipes <br/>
-Home Page
+
+# Home Page
 ![home](https://user-images.githubusercontent.com/47614825/84700424-82ba7880-af29-11ea-9857-a200378c7678.png)
 
 
@@ -14,8 +15,8 @@ Home Page
 # Tools used 
 <a href="https://nodejs.org/en/">Node.js</a>  <br/>
 <a href="https://www.javascript.com/">JavaScript</a> <br/>
-<a href="">HTML5</a> <br/>
-<a href="">CSS</a> <br/>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5">HTML5</a> <br/>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a> <br/>
 <a href="https://www.sqlite.org/index.html">SQLite</a> 
 
 ## Installation
