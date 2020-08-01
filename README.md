@@ -40,6 +40,12 @@ $ yarn
 $ npm install
 ```
 
+> Start the project:
+```shell
+$ yarn start
+```
+
+
 
 
 
